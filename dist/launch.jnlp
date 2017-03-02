@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp codebase="http://www.apicview.com/" href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>Applet to change or replace colors in an image</title>
+        <vendor>apicview.com</vendor>
+        <homepage href="http://www.apicview.com/"/>
+        <description>Java applet to replace or change colors in image. It gives user to change colors
+in either whole image or selected area in in the image. The applet can also identify 
+color ranges automatically in selected area of the image.</description>
+        <description kind="short">Applet to change or replace colors in an image</description>
+
+
+    <icon href="apicviewlogo2.png" kind="splash"/>
+<icon href="apicviewlogo4.png" kind="default"/>
+<offline-allowed/>
+</information>
+<security>
+<all-permissions/>
+</security>
+    <resources>
+<j2se version="1.5+"/>
+<jar eager="true" href="APicViewColor.jar" main="true"/>
+
+
+    <jar href="lib/beansbinding-1.2.1.jar"/>
+</resources>
+    <application-desc main-class="gtthere.MainDisplay">
+
+    </application-desc>
+</jnlp>
