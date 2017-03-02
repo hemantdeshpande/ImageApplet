@@ -7,4 +7,4 @@ in the applet as well as edge detect in the applet, which use Laplace-Canny meth
 while preserving the light-shadow and texture effects, the applet uses RGB cube properties to separate out white-black       
 components and colors. It is entirely done in RGB space to be computationally efficient. 
 
-This the code is in Java, using NetBeans platform using java.awt.image, javax.imageio and javax.swing libraries
+The code is implemented in Java, using NetBeans platform using java.awt.image, javax.imageio and javax.swing libraries
